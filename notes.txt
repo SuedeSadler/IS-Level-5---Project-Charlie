@@ -1,0 +1,23 @@
+
+  class user
+  {
+    static List<user> Visitor = new List<user>();
+    public string firstname;
+    public string lastname;
+    public string mobileNumber;
+    public string email;
+
+    public user(string firstname, string lastname, string mobilenumber, string email)
+    {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.mobileNumber = mobilenumber;
+        this.email = email;
+    }
+
+    public static void AddUsertoLit()
+    {
+        Visitor.
+    }
+
+   }
